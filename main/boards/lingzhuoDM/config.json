@@ -9,7 +9,9 @@
                 "CONFIG_USE_ESP_WAKE_WORD=y",
                 "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y",
                 "CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y",
-                "CONFIG_ESPTOOLPY_FLASHSIZE=\"16MB\""
+                "CONFIG_ESPTOOLPY_FLASHSIZE=\"16MB\"",
+                "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions/v2/16m.csv\"",
+                "CONFIG_LANGUAGE_ZH_CN=y"
             ]
         }
     ]
