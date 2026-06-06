@@ -9,6 +9,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      board:
+        description: 'Board name to build (e.g. lingzhuoDM)'
+        required: false
+        default: ''
 
 permissions:
   contents: read
